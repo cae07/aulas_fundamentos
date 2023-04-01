@@ -1,11 +1,11 @@
-// const listaDeCompras = ['Carne', 'Linguiça', 'Pão de alho', 'Refrigerante', 'Carvão'];
+const listaDeCompras = ['Carne', 'Linguiça', 'Pão de alho', 'Refrigerante', 'Carvão'];
 
-// for (let alimento of listaDeCompras) {
-//   console.log(alimento);
-//   if (alimento === 'Pão de alho') {
-//     console.log('apenas pão de alho aqui');
-//   }
-// }
+for (let alimento of listaDeCompras) {
+  console.log(alimento);
+  if (alimento === 'Pão de alho') {
+    console.log('apenas pão de alho aqui');
+  }
+}
 
 const greetings = 'Hello World';
 
