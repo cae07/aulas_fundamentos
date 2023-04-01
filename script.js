@@ -1,7 +1,7 @@
 joaozinho.getUp();
 joaozinho.walk();
-joaozinho.openTheDoor();
 const adress = getAdress();
+joaozinho.openTheDoor();
 
 joaozinho.goToMarket(adress);
 
