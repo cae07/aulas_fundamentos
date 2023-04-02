@@ -8,8 +8,8 @@ const user = {
     state: 'Santa Catarina',
     country: 'Brazil',
   },
-  hoobies: ['Jogar videogame', 'Codar', 'Andar com cachorro', 'fazer academia'],
   phone: {
+    hoobies: ['Jogar videogame', 'Codar', 'Andar com cachorro', 'fazer academia'],
     mobile: '(47) 9999-9999',
     home: '(47) 8888-8888',
   }
