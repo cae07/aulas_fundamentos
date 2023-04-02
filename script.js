@@ -14,6 +14,18 @@ for (let index = 0; index < ingredientsList.length; index += 1) {
 
   const newList = document.createElement('li');
   newList.innerText = ingredient;
+
+  newList.className = 'ingredient-item';
   
   listToAdd.appendChild(newList);
 }
+
+const list = document.querySelectorAll('.ingredient-item');
+
+list.forEach(element => {
+  const ingredient = element.innerText;
+
+  if (ingredient.includes('açúcar')) {
+    listToAdd.removeChild(element);
+  }
+})
