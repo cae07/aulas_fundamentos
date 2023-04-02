@@ -18,7 +18,6 @@ user['age'] = 64;
 user.age = 65;
 
 user.hobbies.push('conversar com amigos');
-user.hobbies = ['batata']
 
 user.adress.number = 157;
 user.adress.city = 'Jaraguá do Sul';
