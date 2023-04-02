@@ -1,7 +1,4 @@
-const getClasses = document.getElementsByClassName('outra-posicao');
+// const header = document.getElementsByTagName('h1');
+const paragrafo = document.getElementsByTagName('p');
 
-for (let element of getClasses) {
-  if (element.innerText === 'Third Place') {
-    element.innerText = 'Terceiro Lugar'
-  }
-}
+paragrafo[0].innerText = 'batatinha quando nasce, achei legal esse seletor.'
