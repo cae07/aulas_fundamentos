@@ -1,4 +1,5 @@
-// const header = document.getElementsByTagName('h1');
-const paragrafo = document.getElementsByTagName('p');
+const header = document.querySelector('#header');
+const span = document.querySelectorAll('.span-imput');
 
-paragrafo[0].innerText = 'batatinha quando nasce, achei legal esse seletor.'
+console.log(span)
+span[0].innerText = 'Assim encerramos'
