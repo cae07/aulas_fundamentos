@@ -1,3 +1,7 @@
-const div = document.getElementById('div-header');
+const getClasses = document.getElementsByClassName('outra-posicao');
 
-console.log(div.innerText);
+for (let element of getClasses) {
+  if (element.innerText === 'Third Place') {
+    element.innerText = 'Terceiro Lugar'
+  }
+}
