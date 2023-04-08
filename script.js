@@ -29,3 +29,5 @@ list.forEach(element => {
     listToAdd.removeChild(element);
   }
 })
+
+PAREI NOS ESCUTADORES DE EVENTOS
