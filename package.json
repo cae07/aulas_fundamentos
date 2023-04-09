@@ -1,0 +1,23 @@
+{
+  "name": "aula-jest",
+  "version": "1.0.0",
+  "description": "Iremos aprender TDD com jest em função pura",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cae07/aulas_fundamentos.git"
+  },
+  "keywords": [],
+  "author": "Caê Calçolari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cae07/aulas_fundamentos/issues"
+  },
+  "homepage": "https://github.com/cae07/aulas_fundamentos#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
