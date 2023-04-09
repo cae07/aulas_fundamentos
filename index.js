@@ -9,5 +9,4 @@ const shoppingCart = [
 const cartClone = [...shoppingCart, 'prateleiras'];
 
 console.log(shoppingCart);
-console.log('@@@@@@@@@@@@@@');
 console.log(cartClone);

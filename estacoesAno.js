@@ -8,7 +8,6 @@ const estacoesDoAno = [
   ...summer,
   ...fall,
   ...winter
-]
+];
 
-// console.log(`Os meses do ano são ${estacoesDoAno}`);
 console.log(estacoesDoAno);
